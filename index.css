@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; 
+}
+
+body.modal-open{
+	position: fixed;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+/***COLONNE GAUCHE***/
+.rowleft{
+	background: linear-gradient(black, rgba(0,0,0,0.65));
+}
+
+.sticky-top{
+  top: 30px;
+}
+
+.media{
+	margin-top: 30px;
+	background: linear-gradient(0.25turn,darkgrey, transparent);
+}
+.media img{
+	margin-left: 15px;
+}
+.media-body{
+	color: white;
+}
+
+.list-group{
+	margin-top: 30px; 
+}
+
+.bg-color-list .list-group-item{
+	background: linear-gradient(0.25turn,darkgrey, transparent);
+}
+
+.thumbnailicon{
+	margin-top: 30px; 
+}
+.thumbnailicon img:hover{
+	background-color: lightgrey;
+}
+.thumbnailicon img{
+	border: solid 3px grey;
+	border-style: outset;
+}
+
+/***COLONNE DROITE***/
+.rowright{
+	background-image:url(Photos/front.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+.carousel{
+	margin: -10px -15px 10px -15px;
+}
+
+.carousel-pres img{
+	width: 115%;
+ 	height: auto;
+	margin: auto; 
+ 	display: block;
+ }
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-30%);
+	color: white;
+	-webkit-text-stroke: 0.5px black;
+	font-family: Arial black;
+	font-size: 160em;
+}
+
+.projectsection{
+	background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.3));	
+	padding: 50px 45px 50px 45px;
+	margin: -10px -20px 0px -20px;
+}
+
+.projectsection .row .card{
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.skillsection{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6));	
+	padding: 50px 45px 50px 45px;
+	margin: 0px -20px 0px -20px;
+}
+
+.contactsection{
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9));	
+	padding: 50px 45px 50px 45px;
+	margin: 0px -20px 0px -20px;		
+}
+
+.coltext-left{
+	border-right: 1px solid grey;
+	padding-top: 15px;
+}

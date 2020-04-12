@@ -1,0 +1,417 @@
+	<!-- Page principal -->
+	<html>
+	<head>
+		<title> Hugo RICHARD </title>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+	</head>
+	<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+		<div class="row">
+			<!-- Colonne gauche -->
+			<div class="rowleft col-3">					
+				<div class="container sticky-top">
+
+					<div class="media">
+						<img src="Photos/pp.png" class="align-self-center mr-3" width="80px" height=auto alt="...">
+						<div class="media-body">
+							<h5 class="mt-3">Hugo RICHARD</h5>
+							<p>Etudiant en Game Design et en Programmation</p>
+						</div>
+					</div>
+
+					<div id="myScrollspy" class="list-group list-group-flush bg-color-list">				
+						<a class="list-group-item list-group-item-dark list-group-item-action" href="#section1"> Présentation </a>
+						<a class="list-group-item list-group-item-dark list-group-item-action" href="#section2"> Projets </a>
+						<a class="list-group-item list-group-item-dark list-group-item-action" href="#section3"> Compétences </a>
+						<a class="list-group-item list-group-item-dark list-group-item-action" href="#section4"> Contact </a>
+					</div>				
+
+					<div class="thumbnailicon text-center">
+						<a href="https://www.linkedin.com/in/hugo-richard-4959021a2/" target="_blank"><img src="Photos/PhotosReseauxSociaux/linkedinLogo.png" class="align-self-center mr-3 img-thumbnail" width="50px" height=auto alt="..."></a>
+						<a href="https://twitter.com/Widachugo" target="_blank"><img src="Photos/PhotosReseauxSociaux/TwitterLogo.png" class="align-self-center mr-3 img-thumbnail" width="50px" height=auto alt="..."></a>
+						<a href="https://www.twitch.tv/widachugo" target="_blank"><img src="Photos/PhotosReseauxSociaux/TwitchLogo.png" class="align-self-center mr-3 img-thumbnail" width="50px" height=auto alt="..."></a>
+						<a href="https://www.facebook.com/hugo.richard.587" target="_blank"><img src="Photos/PhotosReseauxSociaux/FacebookLogo.png" class="align-self-center mr-3 img-thumbnail" width="50px" height=auto alt="..."></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Colonne droite -->
+			<div class="containerchild rowright col-9 text-center">
+				<div class="child">
+					<h4 id="section1"></h4>
+					<!-- Carousel présentation -->
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Je me nomme Hugo Richard, j'ai 20 ans. Je suis actuellement en deuxième année de Game and Creative Coding dans l'école E-artsup. Etant à la recherche d'un contrat d'alternance ou d'un stage vous pouvez retrouvez ici toutes mes créations.</h5>
+							</div>
+							<div class="carousel-pres carousel-item active">
+								<img src="Photos/PhotosPres/Solar1.png" alt="...">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Project section -->
+				<div class="child projectsection">
+
+					<h1 id="section2"><span class="badge badge-secondary">Projets</span></h1>
+					<div class="row d-flex justify-content-center">
+
+						<!-- Stellar system generator -->
+						<!-- Card1 -->
+						<div class="card bg-dark text-white col-3" style="width: 18rem;">
+							<!-- Photo caousel -->
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="Photos/ProjectsLogos/stellarsystem.png" class="card-img-top" alt="...">
+									</div>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<h5 class="card-title"> Stellar generator <span class="badge badge-pill badge-info">Système</span></h5>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal1-xl">Voir</button>
+							</div>
+						</div>
+						<!-- Modal1 -->
+						<div class="modal fade bd-example-modal1-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle">Stellar system generator</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<iframe width="960" height="540" src="https://www.youtube.com/embed/DLoASSiClXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>              
+											</div>
+										</div>   
+										<div class="row container">
+											<div class="coltext-left col-7 text-left">
+												<p>
+													Stellar System Generator est un système de génération procédurale de système stellaire. Ce projet est fait pour être, dans le futur, un outil pour le grand public. Le but serait d'atteindre le domaine de l'éducation en ajoutant des informations compréhensibles sur le fonctionnement des planètes ainsi que le fonctionnement des systèmes stellaires simples. Le projet est personnel, j'ai donc fait le système seul en environ 10h de travail. Les planètes sont pour l'instant générées à des distances différentes du soleil avec des tailles aussi différentes. Les textures des planètes sont pour l'instant une liste de textures de planètes existantes ou non, mais dans le futur, j'aimerais générer les textures procéduralement.	
+												</p>
+												<div class="dawnloadzone"><a href="https://widachugo.itch.io/stellar-system-generator" target="_blank"><img src="Photos/itchio.png" class="d-block w-50" alt="..."></a></div>												
+											</div>
+											<div class="coltext-right col-5 text-left">
+												<p>
+													<h6> Genres :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Système</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Procédural</button>
+													</p>
+													<h6> Logiciels :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Unity 3D</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Visual Studio</button>
+													</p>
+													<h6> Etat du projet :</h6> <p> Prototype </p>
+													<h6> Effectifs & Rôles :</h6> <p> J'ai été seul sur ce projet.</p>
+												</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Path of equality -->
+						<!-- Card2 -->
+						<div class="card bg-dark text-white col-3" style="width: 18rem;">
+							<!-- Photo caousel -->
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="Photos/ProjectsLogos/pathofequality.png" class="card-img-top" alt="...">
+									</div>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<h5 class="card-title"> Path of Equality <span class="badge badge-pill badge-warning">EI</span></h5>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal2-xl">Voir</button>
+							</div>
+						</div>
+						<!-- Modal2 -->
+						<div class="modal fade bd-example-modal2-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle">Path of Equality</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<iframe width="960" height="540" src="https://www.youtube.com/embed/gdGM9DOnccg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>              
+											</div>
+										</div>   
+										<div class="row container">
+											<div class="coltext-left col-7 text-left">
+												<p>
+													Path of Equality est un serious game compatible pour PC et Android basé sur la mécanique de swipe de Reign. Le jeu a été fait dans le cadre des études, en partenariat avec le Rectorat de Nantes, pour introduire et faire décourvrir aux collègiens les inégalités entre les hommes et les femmes dans notre société. Une situation d'inégalité est donc présentée et l'utilisateur à le choix entre deux propositions, une est dans le stéréotype alors que l'autre non. <br> Ce projet a été interessant pour l'élaboration d'une base de donnée servant à répertorier les situations ainsi que les propositions associées.
+												</p>											
+											</div>
+											<div class="coltext-right col-5 text-left">
+												<p>
+													<h6> Genres :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Expérience</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Serious Game</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>PC</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Android</button>
+													</p>
+													<h6> Logiciels :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Unity 2D</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Visual Studio</button>
+													</p>
+													<h6> Etat du projet :</h6> <p> En développement </p>
+													<h6> Effectifs & Rôles :</h6> <p> Path of Equality a été fait à 6. Mon rôle dans le projet a été Project Manager, Game Designer, ainsi que Developper Database.</p>
+												</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- La tour -->
+						<!-- Card3 -->
+						<div class="card bg-dark text-white col-3" style="width: 18rem;">
+							<!-- Photo caousel -->
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="Photos/ProjectsLogos/tour.png" class="card-img-top" alt="...">
+									</div>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<h5 class="card-title"> Observatoire <span class="badge badge-pill badge-warning">EI</span></h5>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal3-xl">Voir</button>
+							</div>
+						</div>
+						<!-- Modal3 -->
+						<div class="modal fade bd-example-modal3-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle"> Observatoire astronomique de la Marine </h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<iframe width="960" height="540" src="https://www.youtube.com/embed/RjynOqIe334" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>              
+											</div>
+										</div>   
+										<div class="row container">
+											<div class="coltext-left col-7 text-left">
+												<p>
+													Ce projet est une expérience en réalité virtuelle faite dans le cadre des études. Le projet a pour but de faire découvrir l'observatoire astronomique de la Marine de Nantes, rue Flandres dunkerque, au grand public grâce à des photos en 360°. La production de l'expérience, c'est à dire tout le système de réalité virtuelle ainsi que l'intégration des photos 360° et des élèments graphiques, a pris environ 30h.
+												</p>												
+											</div>
+											<div class="coltext-right col-5 text-left">
+												<p>
+													<h6> Genres :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Expérience</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>VR</button>
+													</p>
+													<h6> Logiciels :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Unity 3D</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Visual Studio</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Steam VR</button>
+													</p>
+													<h6> Etat du projet :</h6> <p> En développement </p>
+													<h6> Effectifs & Rôles :</h6> <p> 5 personnes ont travaillées sur ce projet 2 graphistes : FALLOURD Ségolène, GORE-KOENING Manon. Et 3 développeurs : BERARD Quentin, HEMERY Kilian et moi-même. Mon rôle dans ce projet à été de gérer le projet en tant que Project Manager, ainsi que Developper VR.</p>
+												</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Powered armor T-60 -->
+						<!-- Card4 -->
+						<div class="card bg-dark text-white col-3" style="width: 18rem;">
+							<!-- Photo caousel -->
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="Photos/ProjectsLogos/armure.png" class="card-img-top" alt="...">
+									</div>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<h5 class="card-title"> Armure Fallour T-60 <span class="badge badge-pill badge-success">3D</span></h5>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal4-xl">Voir</button>
+							</div>
+						</div>
+						<!-- Modal4 -->
+						<div class="modal fade bd-example-modal4-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle"> Armure assistée T-60 de Fallout </h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<iframe width="960" height="540" src="https://www.youtube.com/embed/sien0CNtf8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>              
+											</div>
+										</div>   
+										<div class="row container">
+											<div class="coltext-left col-7 text-left">
+												<p>
+													Reproduction de l'armure assistée T-60 de l'univers Fallout. La modélisation a été entièrement faite sous 3D Studio Max. L'armure a été faite dans le cadre des études pour un exercice de modélisation de personnage.
+												</p>												
+											</div>
+											<div class="coltext-right col-5 text-left">
+												<p>
+													<h6> Logiciels :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>3D Studio Max</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Substance</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Photoshop</button>
+													</p>
+												</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+
+						<!-- Sushi Race -->
+						<!-- Card5 -->
+						<div class="card bg-dark text-white col-3" style="width: 18rem;">
+							<!-- Photo caousel -->
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="Photos/ProjectsLogos/sushirace.png" class="card-img-top" alt="...">
+									</div>
+								</div>
+							</div>
+
+							<div class="card-body">
+								<h5 class="card-title"> Sushi Race <span class="badge badge-pill badge-danger">Jeu</span></h5>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal5-xl">Voir</button>
+							</div>
+						</div>
+						<!-- Modal5 -->
+						<div class="modal fade bd-example-modal5-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle"> Sushi Race </h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<iframe width="960" height="540" src="https://www.youtube.com/embed/n-WoPwLAzLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>              
+											</div>
+										</div>   
+										<div class="row container">
+											<div class="coltext-left col-7 text-left">
+												<p>
+													Sushi Race est un jeu de course en multijoueur locale de 2 à 4 joueurs. Le but du jeu est d'atteindre la ligne d'arrivé en premier en évitant les obstacles, les joueurs et en évitant de se faire écraser par la truite qui les poursuit. Ce jeu a été produit dans le cadre de mes études comme projet de fin d'année.
+												</p>												
+											</div>
+											<div class="coltext-right col-5 text-left">
+												<p>
+													<h6> Genres :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Runner</button> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>PC</button>
+													</p>													
+													<h6> Logiciels :</h6> 
+													<p> 
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Unity 3D</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Visual Studio</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>3D Studio Max</button>
+														<button type="button" class="btn btn-secondary btn-sm" disabled>Substance</button>
+													</p>
+													<h6> Etat du projet :</h6> <p> En développement </p>
+													<h6> Effectifs & Rôles :</h6> <p> Trois personnes ont travaillées sur ce projet : FALLOURD Ségolène, TEXIER Florian et moi-même. Dans ce projet nous avons eu beaucoup de rôles pour mener à bien le jeu, j'ai eu le rôle de Game Designer, Lead Developper, VFX Designer ainsi que Graphiste 3D.</p>
+												</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>										
+
+					</div>
+				</div>
+
+				<!-- Skill section -->
+				<div class="child skillsection">
+					<h1 id="section3"><span class="badge badge-secondary">Compétences</span></h1>
+					<div class="row d-flex justify-content-center">									
+
+					</div>
+				</div>				
+
+				<!-- Contact section -->
+				<div class="child contactsection">
+					<h1 id="section4"><span class="badge badge-secondary">Contact</span></h1>
+					<div class="row d-flex justify-content-center">									
+						<div class="card col-3" style="width: 100%;">
+							<div class="card-body">
+								Email : <div class="courrieltext">hugo.richard1150@gmail.com</div>
+								Téléphone : <div class="courrieltext">07 78 04 56 98</div>
+							</div>
+						</div> 
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
