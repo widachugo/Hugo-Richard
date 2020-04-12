@@ -62,7 +62,7 @@ body.modal-open{
 
 /***COLONNE DROITE***/
 .rowright{
-	background-image:url(Photos/front.png);
+	background-image:url('Photos/front.png');
 	background-repeat: no-repeat;
   	background-attachment: fixed;
 }
