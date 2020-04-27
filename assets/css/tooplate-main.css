@@ -279,7 +279,7 @@ nav a::before {
   background-position: fixed;
 }
 .slides .slide:nth-child(3) {
-  background-image: url(../images/bg-skill.jpg);
+  background-image: url(../images/skill-bg.jpg);
   background-position: fixed;
 }
 .slides .slide:nth-child(4) {
@@ -364,14 +364,12 @@ nav a::before {
 .slide-caption h6 {
   margin-top: 0px;
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: 700;
   color: #fff;
 }
 .slide-caption h2 {
   margin-top: 0px;
   font-size: 25px;
-  text-transform: uppercase;
   font-weight: 700;
   color: #fff;
 }
@@ -553,6 +551,13 @@ nav a::before {
   margin-top: 0px;
   margin-bottom: 50px;
 }
+#contact h3 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 #contact input,
 #contact textarea {
   padding-left: 15px;
@@ -595,6 +600,10 @@ nav a::before {
   background-color: #faf5b2;
   border-color: #faf5b2;
   color: #1e1e1e;
+}
+#contact img{
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 
@@ -678,7 +687,8 @@ nav a {
 }
 .slide-caption {
   padding-left: 120px;
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-top: 100px;
   margin-left: -85px;
   margin-right: -85px;
 }
@@ -696,7 +706,7 @@ nav a {
 }
 .row h2{
   margin-top: 50px;
-  margin-left: 25px;
+  margin-left: 0px;
   margin-bottom: 30px;
   font-size: 25px;
   text-transform: uppercase;
