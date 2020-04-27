@@ -384,11 +384,11 @@ nav a::before {
 }
 #tabs {
   float: center;
-  margin-right: 750px;
+  margin-right: 0px;
 }
 #tabs ul {
   margin: 0;
-  padding: 0;
+  padding: 50px 0px 0px 0px;
   float: left;
 }
 #tabs ul li {
@@ -601,11 +601,6 @@ nav a::before {
   border-color: #faf5b2;
   color: #1e1e1e;
 }
-#contact img{
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
 
 
 
