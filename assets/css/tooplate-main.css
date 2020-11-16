@@ -275,7 +275,7 @@ nav a::before {
 
 }
 .slides .slide:nth-child(2) {
-  background-color: grey;
+  background-color: rgba(10, 10, 10, 0.7);
   background-position: fixed;
 }
 .slides .slide:nth-child(3) {
